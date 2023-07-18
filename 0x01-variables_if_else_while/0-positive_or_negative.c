@@ -3,14 +3,13 @@
 /**
  * main - Entry of the program
  *
- * Return: Always zere
+ * Return: Always zero
 */
 int main(void)
 {
-	int n;
+	srand(time(NULL));
+	float n = rand();
 
-	srand(time(0));
-	n = rand();
 	if (n > 0)
 	{
 		puts("is positive");
